@@ -1,0 +1,5 @@
+This folder contains final assignment on javascript that is the implementation of Restaurant Application using js functionalities like 
+1.searching the menu by category and item names , searching the tables  
+2.dragging and dropping the items from menu list to tables 
+3.displaying the tables on clicking  
+4.generating the total bill. 

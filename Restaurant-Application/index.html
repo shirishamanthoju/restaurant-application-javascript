@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Zemoso Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body onload="initialize()">
+    <div class="header">
+      <div class="header-data">RESTAURANT APPLICATION</div>
+    </div>
+
+    <div id="restaurant">
+      <div class="left-container">
+        <h2>Tables</h2>
+        <ul id="table-items">
+          <!--
+						<li class="table-heading">
+							<h3>Table.Id</h3>
+							<p>Rs.{Table.price} | Total Items:{Table.items}</p>
+						</li>
+					-->
+        </ul>
+      </div>
+      <div class="right-container">
+        <h2>Menu</h2>
+        <input
+          type="text"
+          class="input"
+          placeholder="Search menu... by course, by food"
+          id="menu-search"
+          oninput="searchForMenuList()"
+        />
+        <ul id="menu-items">
+          <!--
+						<li>
+							<h3>menu.Name</h3>
+							<p>menu.price</p>
+							<h5 style="float: right">menu.category</h5>
+						</li>
+					-->
+        </ul>
+      </div>
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div id="modal-header"></div>
+          <div id="modal-body">
+            <table id="tb-rows">
+              <tr>
+                <th>S.No</th>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Item Total</th>
+              </tr>
+            </table>
+            <p id="total"></p>
+          </div>
+          <div id="modal-footer">
+            <!-- 
+                   <p id="bill" onclick="generateBill('${tableNo}')" >GENERATE BILL</p>
+                 -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="tables.js"></script>
+    <script src="menuItems.js"></script>
+    <script src="style.css"></script>
+    <script src="display.js"></script>
+    <script src="search.js"></script>
+    <script src="modal.js"></script>
+  </body>
+</html>
