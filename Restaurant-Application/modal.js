@@ -139,3 +139,4 @@ function generateBill(tableNo) {
 	}
 }
 
+
