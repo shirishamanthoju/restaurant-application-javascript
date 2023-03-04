@@ -1,11 +1,11 @@
 # restaurant-application-javascript
 
 This is the javascript project which includes the implementation of Restaurant Application using Javascript functionalities like :
-1.searching the menu by category and item names.
-2.dragging and dropping the items from menu list to tables.
-3.displaying the tables on clicking.
-4.generating the total bill.
-5.closing the table.
+1.  Searching the menu by category and item names.
+2.  Dragging and dropping the items from menu list to tables.
+3.  Displaying the tables on clicking.
+4.  Generating the total bill.
+5.  Closing the table.
 
 The snippet of the output is shown below:
 ![restaurant-UI](https://user-images.githubusercontent.com/126951025/222895365-8512b427-530d-4c19-85bb-1faea7942c17.png)
